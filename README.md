@@ -5,7 +5,6 @@ This is a simple "Things To-Do" list application built using the Yii2 framework.
 ## Features
 
 - Add tasks with associated categories
-- Update tasks as needed
 - Delete tasks once completed
 - AJAX functionality for a smooth user experience
 
