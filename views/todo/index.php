@@ -10,13 +10,14 @@ use yii\widgets\ActiveForm;
     <?php $form = ActiveForm::begin(['id' => 'todo-form']); ?>
 
     <div class="row  items-center">
-        <div class="col-4"> <?= $form->field($model, 'category_id')->dropDownList(
+        <div class="col-4"> <?= $form->field($model, 'category_id')->label(false)->dropDownList(
                                 \yii\helpers\ArrayHelper::map($categories, 'id', 'name'),
-                                ['prompt' => 'Select Category']
+                                ['prompt' => 'Select Category', 'class' => 'form-select rounded-0']
                             ) ?></div>
-        <div class="col-4"> <?= $form->field($model, 'name')->textInput(['placeholder' => 'Type task item here...']) ?>
+        <div class="col-4"> <?= $form->field($model, 'name')->label(false)->textInput(['placeholder' => 'Type task item here...', 'class' => 'form-control rounded-0']) ?>
         </div>
-        <div class="col-4 d-flex align-items-center"> <?= Html::button('Add', ['class' => 'btn btn-success', 'id' => 'add-todo']) ?>
+        <div class="col-4 d-flex align-items-center">
+            <div class="form-group"> <?= Html::button('Add', ['class' => 'btn btn-success rounded-0', 'id' => 'add-todo']) ?></div>
         </div>
     </div>
 

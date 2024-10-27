@@ -1,8 +1,7 @@
 
 <?php
 use yii\helpers\Html;
-use yii\helpers\Url;
-use yii\widgets\ActiveForm;
+
 ?>
 <table class="table table-striped">
     <thead>
@@ -21,7 +20,7 @@ use yii\widgets\ActiveForm;
                 <td><?= Yii::$app->formatter->asDatetime($todo->timestamp) ?></td>
                 <td>
                     <?= Html::button('Delete', [
-                        'class' => 'btn btn-danger',
+                        'class' => 'btn btn-danger rounded-0',
                         'onclick' => "deleteTodo($todo->id)"
                     ]) ?>
                 </td>
