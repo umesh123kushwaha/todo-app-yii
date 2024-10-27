@@ -85,7 +85,7 @@ php yii serve
 ```
 ### Output
 
-Demo Link: <a href="http://todo.42web.io/">http://todo.42web.io/</a>
+Demo Link: <a href="http://todo-app.my-style.in/">http://todo-app.my-style.in/</a>
 
 ### Application Home Screen and Add Item in todo list
 ![Home Screen](images/todo-list-home.png)
@@ -97,7 +97,7 @@ Demo Link: <a href="http://todo.42web.io/">http://todo.42web.io/</a>
 
 ### Manage Category
 
-<a href= "http://todo.42web.io?r=category">http://todo.42web.io?r=category</a>
+<a href= "http://todo-app.my-style.in?r=category">http://todo-app.my-style.in?r=category</a>
 
 ![Manage Category](images/category-list.png)
 
