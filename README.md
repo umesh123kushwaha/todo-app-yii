@@ -91,7 +91,7 @@ php yii serve
 ![Home Screen](images/todo-list-home.png)
 
 ### Todo Validation
-![Add Task](images/todo-validation.png)
+![Todo Validation](images/todo-validation.png)
 
 
 
@@ -101,7 +101,7 @@ php yii serve
 http://localhost:8080/?r=category
 ~~~
 
-![Manage Category](images/task-list.png)
+![Manage Category](images/category-list.png)
 
 
 --------------------------------------------------------------------------------------------------------------------------------------
